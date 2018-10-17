@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "organdonation",
+  "info": {
+    "name": "organdonation",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "dateOfDonation": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "donor": {
+      "model": "donor"
+    },
+    "organ": {
+      "model": "organ"
+    },
+    "organization": {
+      "model": "organdonationorganization"
+    }
+  }
+}

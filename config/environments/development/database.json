@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "ds141641.mlab.com",
+        "port": "41641",
+        "database": "yougift-db",
+        "username": "admin",
+        "password": "qwerty_123"
+      },
+      "options": {
+        "authenticationDatabase": "yougift-db",
+        "ssl": false
+      }
+    }
+  }
+}

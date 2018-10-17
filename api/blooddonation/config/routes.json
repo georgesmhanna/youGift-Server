@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/blooddonation",
+      "handler": "Blooddonation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blooddonation/count",
+      "handler": "Blooddonation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/blooddonation/:_id",
+      "handler": "Blooddonation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/blooddonation",
+      "handler": "Blooddonation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/blooddonation/:_id",
+      "handler": "Blooddonation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/blooddonation/:_id",
+      "handler": "Blooddonation.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/organ",
+      "handler": "Organ.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organ/count",
+      "handler": "Organ.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organ/:_id",
+      "handler": "Organ.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/organ",
+      "handler": "Organ.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/organ/:_id",
+      "handler": "Organ.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/organ/:_id",
+      "handler": "Organ.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

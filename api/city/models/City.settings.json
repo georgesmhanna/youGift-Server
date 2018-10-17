@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "city",
+  "info": {
+    "name": "city",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "donors": {
+      "collection": "donor",
+      "dominant": true,
+      "via": "cities"
+    },
+    "hospitals": {
+      "collection": "hospital",
+      "via": "cities",
+      "dominant": true
+    }
+  }
+}

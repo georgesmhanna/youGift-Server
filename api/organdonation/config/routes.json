@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/organdonation",
+      "handler": "Organdonation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organdonation/count",
+      "handler": "Organdonation.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/organdonation/:_id",
+      "handler": "Organdonation.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/organdonation",
+      "handler": "Organdonation.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/organdonation/:_id",
+      "handler": "Organdonation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/organdonation/:_id",
+      "handler": "Organdonation.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

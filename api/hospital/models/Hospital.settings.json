@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "hospital",
+  "info": {
+    "name": "hospital",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "cities": {
+      "collection": "city",
+      "via": "hospitals"
+    },
+    "donors": {
+      "collection": "donor",
+      "via": "hospitals"
+    },
+    "users": {
+      "collection": "user",
+      "via": "hospital",
+      "plugin": "users-permissions"
+    }
+  }
+}

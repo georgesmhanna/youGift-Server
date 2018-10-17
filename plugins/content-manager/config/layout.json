@@ -1,0 +1,145 @@
+{
+  "article": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "coucou": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": "WYSIWYG"
+      },
+      "code": {
+        "appearance": ""
+      }
+    }
+  },
+  "tag": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "category": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "reference": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "donor": {
+    "attributes": {
+      "firstName": {
+        "appearance": ""
+      },
+      "lastName": {
+        "appearance": ""
+      },
+      "email": {
+        "appearance": ""
+      },
+      "status": {
+        "appearance": ""
+      },
+      "middleName": {
+        "appearance": ""
+      },
+      "bloodType": {
+        "appearance": ""
+      },
+      "dateOfBirth": {
+        "appearance": ""
+      },
+      "mobileNumber": {
+        "appearance": ""
+      },
+      "isDead": {
+        "appearance": ""
+      },
+      "isOrganDonor": {
+        "appearance": ""
+      },
+      "address": {
+        "appearance": ""
+      }
+    }
+  },
+  "hospital": {
+    "attributes": {
+      "phoneNumber": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "address": {
+        "appearance": ""
+      },
+      "location": {
+        "appearance": ""
+      }
+    }
+  },
+  "city": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "bloodDonation": {
+    "attributes": {
+      "dateOfDonation": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "quantity": {
+        "appearance": ""
+      }
+    }
+  },
+  "organ": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      }
+    }
+  },
+  "organDonation": {
+    "attributes": {
+      "dateOfDonation": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      }
+    }
+  },
+  "organDonationOrganization": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "address": {
+        "appearance": ""
+      },
+      "phoneNumber": {
+        "appearance": ""
+      }
+    }
+  }
+}

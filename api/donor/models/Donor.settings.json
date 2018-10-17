@@ -1,0 +1,73 @@
+{
+  "connection": "default",
+  "collectionName": "donor",
+  "info": {
+    "name": "donor",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "default": true,
+      "type": "boolean"
+    },
+    "middleName": {
+      "type": "string"
+    },
+    "bloodType": {
+      "enum": [
+        "O+",
+        "O-",
+        "A+",
+        "A-",
+        "AB+",
+        "AB-",
+        "B+",
+        "B-"
+      ],
+      "type": "enumeration",
+      "required": true
+    },
+    "dateOfBirth": {
+      "type": "date",
+      "required": true
+    },
+    "mobileNumber": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "isDead": {
+      "type": "boolean"
+    },
+    "isOrganDonor": {
+      "type": "boolean"
+    },
+    "address": {
+      "type": "string"
+    },
+    "cities": {
+      "collection": "city",
+      "via": "donors"
+    },
+    "hospitals": {
+      "collection": "hospital",
+      "via": "donors",
+      "dominant": true
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    }
+  }
+}
